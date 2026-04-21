@@ -67,15 +67,15 @@ function App() {
           {[
             {
               name: 'Dreamy Night',
-              image: '/images/dreamy-night.svg',
+              image: '/images/dreamy-night.jpeg',
             },
             {
               name: 'Moon Hug',
-              image: '/images/moon-hug.svg',
+              image: '/images/moon-hug.png',
             },
             {
               name: 'Morning Air',
-              image: '/images/morning-air.svg',
+              image: '/images/morning-air.png',
             },
           ].map((item) => (
             <div key={item.name} className="overflow-hidden rounded-2xl bg-white shadow-sm">
